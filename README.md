@@ -25,4 +25,3 @@ Minority data points imply abnormality, as do outliers which are even more sever
 5. From the hours in step 4, find out these hours' respective runtime level.
 6. If runtime level from step 5 hits threshold, mark these hours as abnormalities, as runtime spikes combined with above-threshold runtime = red flag 🚩.
 7. Store these abnormal hours in database as potential malfunction alerts.
-8. 
