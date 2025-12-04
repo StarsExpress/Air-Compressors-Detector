@@ -1,6 +1,6 @@
+import threading
 from air_compressor_pm_app import Application
 from logger import Logger
-import threading
 
 
 if __name__ == '__main__':

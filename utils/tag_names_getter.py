@@ -1,6 +1,6 @@
-from config import SOURCE_FOLDER_BASE_PATH
 import os
 import pandas as pd
+from config import SOURCE_FOLDER_BASE_PATH
 
 
 def get_tag_names_dict():

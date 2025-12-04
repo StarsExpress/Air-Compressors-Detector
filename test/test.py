@@ -1,8 +1,8 @@
-from config import APP_BASE_PATH
 import os
 import unittest
 import pandas as pd
 from pandas.testing import assert_frame_equal
+from config import APP_BASE_PATH
 
 
 class TestAlarms(unittest.TestCase):

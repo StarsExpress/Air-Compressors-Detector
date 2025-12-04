@@ -1,9 +1,9 @@
-from config import DBSCAN_PARAMETERS_DICT
 import datetime
 import swifter
 import plotly.graph_objects as go
 import plotly.io as pio
 import plotly.offline as pyo
+from config import DBSCAN_PARAMETERS_DICT
 
 
 class ClusterVisualizer:
@@ -136,12 +136,12 @@ class ClusterVisualizer:
 
 
 if __name__ == '__main__':
+    import os
+    import pandas as pd
     from config import APP_BASE_PATH
     from dao import air_compressor_meta_dao, runtime_dao
     from workflow.moving_avg_calculation_step import CalculationStep
     from algorithm.dbscan_test import DBSCANTester
-    import os
-    import pandas as pd
 
     runtime_data_main = runtime_dao.read_runtime()  # Runtime data.
 
